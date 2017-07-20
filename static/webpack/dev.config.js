@@ -2,14 +2,14 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-    devtool: 'cheap-module-eval-source-map',
+    devtool: 'eval-source-map',
     entry: [
         'bootstrap-loader',
         'webpack-hot-middleware/client',
         './src/index',
     ],
     output: {
-        publicPath: '/dist/',
+        publicPath: 'http://localhost:3000/dist/',
     },
 
     module: {

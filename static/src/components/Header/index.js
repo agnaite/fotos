@@ -32,17 +32,17 @@ export class Header extends Component {
 
     render() {
         return (
-            <header>
-                <div open={this.state.open}>
-                    {
-                      <div onClick={() => this.dispatchNewRoute('/login')}>
-                          Albums
-                      </div>
-                    }
+            <nav className="navbar navbar-default">
+                <div className="container-fluid" open={this.state.open}>
+                  <div className="navbar-header">
+                      <a className="navbar-brand" href="/">Fotos</a>
+                        <ul className="nav navbar-nav navbar-right">
+                          <li><a href='#' onClick={() => this.dispatchNewRoute('/albums')}>Albums</a></li>
+                          <li><a href='#' onClick={() => this.dispatchNewRoute('/main')}>Home</a></li>
+                        </ul>
+                  </div>
                 </div>
-
-            </header>
-
+            </nav>
         );
     }
 }

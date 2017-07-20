@@ -14,6 +14,7 @@ const history = browserHistory;
 
 ReactDOM.render(
     <Router history={history}>
+        <Redirect from="/" to="main" />
         {routes}
     </Router>,
     document.getElementById('root')

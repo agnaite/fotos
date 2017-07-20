@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const Home = () =>
+export const Albums = () =>
     <section>
         <div className="container text-center">
-          home
+          Albums
         </div>
     </section>;

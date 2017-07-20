@@ -2,7 +2,6 @@ import React from 'react';
 
 /* application components */
 import { Header } from '../../components/Header';
-import { Footer } from '../../components/Footer';
 
 /* global styles for app */
 import './styles/app.scss';
@@ -19,8 +18,7 @@ class App extends React.Component { // eslint-disable-line react/prefer-stateles
                     <Header />
                     <div
                       className="container"
-                      style={{ marginTop: 10, paddingBottom: 250 }}
-                    >
+                      style={{ marginTop: 10, paddingBottom: 250 }}>
                         {this.props.children}
                     </div>
                 </section>

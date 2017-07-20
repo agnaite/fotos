@@ -5,13 +5,13 @@
 
 :global(body) {
   position: relative;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Menlo', sans-serif !important;
   h1, h2, h3, h4 {
     font-weight: 300;
   }
 
   header div {
-    background-color: #000 !important;
+    background-color: #000;
   }
 
 }

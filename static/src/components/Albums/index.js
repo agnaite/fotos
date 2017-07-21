@@ -14,33 +14,18 @@ export class Albums extends Component {
 const PHOTO_SET = [
   {
     src: '../images/1.jpg',
-    sizes:[
-      '(min-width: 480px) 50vw',
-      '(min-width: 1024px) 33.3vw',
-      '100vw'
-    ],
     width: 681,
     height: 1024,
     alt: 'image 1',
   },
   {
     src: '../images/2.jpg',
-    sizes:[
-      '(min-width: 480px) 50vw',
-      '(min-width: 1024px) 33.3vw',
-      '100vw'
-    ],
-    width: 681,
-    height: 1024,
+    width: 760,
+    height: 1000,
     alt: 'image 1',
   },
   {
     src: '../images/3.jpg',
-    sizes:[
-      '(min-width: 480px) 50vw',
-      '(min-width: 1024px) 33.3vw',
-      '100vw'
-    ],
     width: 681,
     height: 1024,
     alt: 'image 1',

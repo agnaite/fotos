@@ -1,0 +1,51 @@
+\q
+\dt
+\q
+\dt
+\q
+\dt
+SELECT * FROM auth_user
+;
+SELECT * FROM django_admin_log;
+\q
+\dt
+select timestamp, comment from sis_studentcomment order by timestamp desc limit 1;
+select comment from sis_studentcomment;
+qq\q
+\d sis_studentcomment
+select timestamp, comment from sis_studentcomment order by created  desc limit 1;
+select created, comment from sis_studentcomment order by created desc limit 1;
+select id, created, comment from sis_studentcomment order by created desc limit 1;
+DELETE * from sis_studentcomment where id is 10149;
+DELETE from sis_studentcomment where id is 10149;
+DELETE from sis_studentcomment where id=10149;
+\q
+select id, created, comment from sis_studentcomment order by created desc limit 1;
+DELETE from sis_studentcomment where id=10150;
+DELETE from sis_studentcomment where id=10148;
+DELETE from sis_studentcomment where id=10147;
+DELETE from sis_studentcomment where id=10146;
+\q
+\dt
+\q
+\dt
+\d user
+\q
+select * from user;
+\q
+\dt
+\q
+\dt
+\d alembic_version 
+\q
+\dt
+\q
+\dt
+\d photos
+\q
+drop table albums;
+\q
+select * from albums;
+\q
+\dt
+\s albums

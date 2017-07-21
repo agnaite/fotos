@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { router } from 'react-router';
 
 export class CreateAlbum extends Component {
   constructor(props) {
     super(props);
     const redirectRoute = '/albums';
     this.state = {
-      album_name: '',
+      name: '',
+      description: '',
       redirectTo: redirectRoute,
       disabled: true,
     };
